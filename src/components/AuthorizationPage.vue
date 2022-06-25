@@ -14,8 +14,6 @@
       />
       <button @click="sendId" class="sign_in_btn">Войти</button>
     </div>
-
-    <span>5f8475902b0be670555f1bb3</span>
     <span v-if="inputNotFilled" class="atten_text"
       >id сайта должен содержать 24 символа</span
     >
