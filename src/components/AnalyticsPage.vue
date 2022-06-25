@@ -96,6 +96,7 @@ export default {
 
     let xAxis = chart.xAxes.push(
       am5xy.DateAxis.new(root, {
+        start: 0.01,
         baseInterval: { timeUnit: "day", count: 1 },
         renderer: am5xy.AxisRendererX.new(root, {}),
       })
