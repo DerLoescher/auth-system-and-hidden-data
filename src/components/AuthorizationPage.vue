@@ -20,6 +20,7 @@
     <span class="atten_text" v-if="this.$store.state.notValidKey"
       >Вы ввели неверный id, попробуйте снова</span
     >
+    <span class="secret">Подсказка: 5f8475902b0be670555f1bb3</span>
   </div>
 </template>
 
@@ -103,5 +104,9 @@ export default {
 }
 .atten_text {
   color: #9aa0a6;
+}
+.secret {
+  position: absolute;
+  bottom: 10px;
 }
 </style>
