@@ -1,21 +1,21 @@
-# leadhit
+# Тестовое задание LeadHit
 
-## Project setup
+## Установка пакетов
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Запуск проекта
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Сборка для продакшна
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### Линтер
 ```
 npm run lint
 ```
