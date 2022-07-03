@@ -10,6 +10,13 @@
         </li>
       </ul>
     </nav>
+    <div
+      class="nav_item exit_btn"
+      v-if="key"
+      @click="this.$store.commit('logOut')"
+    >
+      <span class="nav_link">Выйти</span>
+    </div>
     <router-view />
   </div>
 </template>
@@ -17,7 +24,7 @@
 <script>
 export default {
   name: "MainComponent",
-
+  methods: {},
   computed: {
     key() {
       return this.$store.state.key;
@@ -76,9 +83,25 @@ export default {
 .nav_link:hover {
   text-decoration: underline;
 }
+.exit_btn {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+.exit_btn .nav_link {
+  font-size: 12px;
+}
 @media screen and (max-width: 500px) {
   .nav_list {
-    width: 80%;
+    width: 60%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .nav_link {
+    font-size: 12px;
+  }
+  .exit_btn .nav_link {
+    font-size: 8px;
   }
 }
 </style>

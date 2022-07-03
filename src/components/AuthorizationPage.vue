@@ -1,7 +1,7 @@
 <template>
   <div class="auth_wrapper">
     <h2 class="title">
-      <router-link to="/" class="logo_link">LeadHit</router-link>
+      <router-link to="/" class="logo_link">Company Name</router-link>
     </h2>
     <div class="form_block">
       <input
