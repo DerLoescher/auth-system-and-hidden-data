@@ -1,5 +1,6 @@
 # Тестовое задание LeadHit
-https://auth-system-and-hidden-data.herokuapp.com/auth
+Попробовать можно тут - https://auth-system-and-hidden-data.herokuapp.com/auth
+Создано с помощью Vue CLI, Vue Router, VueX
 ## Установка пакетов
 ```
 npm install
@@ -10,16 +11,6 @@ npm install
 npm run serve
 ```
 ### Текст задания
+Задание было немного изменено. Вместо localStorage для хранения ключа использован куки.
 https://docs.google.com/document/d/1kkBaZYmehNVgCMd76jdbvL8zTxgMsg63VWnDWdTdkiY/edit?usp=sharing
-
-### Сборка для продакшна
-```
-npm run build
-```
-
-### Линтер
-```
-npm run lint
-```
-
 
